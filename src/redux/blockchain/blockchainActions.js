@@ -50,7 +50,7 @@ export const connect = () => {
         });
         console.log("networkId: ", networkId);
         // const NetworkData = await SmartContract.networks[networkId];
-        if (networkId === "4") { // IMPORTANT. ONCE YOUR CONTRACT IS ON THE MAIN NET, SWITCH THIS NUMBER TO 1.
+        if (networkId === "5") { // IMPORTANT. ONCE YOUR CONTRACT IS ON THE MAIN NET, SWITCH THIS NUMBER TO 1.
           const SmartContractObj = new Web3EthContract(
             SmartContract,
             process.env.REACT_APP_AUCTION_NFT_CONTRACT // **IMPORTANT** PASTE CONTRACT ADDRESS HERE
