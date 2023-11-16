@@ -22,21 +22,21 @@ function Footer () {
                   className="footer-sectiion-icon-round"
                 />
               </div> */}
-              <a className="footer-sectiion-icon" href="https://twitter.com/welcomecatena">
+              <a className="footer-sectiion-icon" href="">
                 <img
                   alt=""
                   src={Twitter}
                   className="footer-sectiion-icon-round"
                 />
               </a>
-              <a className="footer-sectiion-icon" href="https://community.catena.one/">
+              <a className="footer-sectiion-icon" href="">
                 <img
                   alt=""
                   src={Twitch}
                   className="footer-sectiion-icon-round"
                 />
               </a>
-              <a className="footer-sectiion-icon" href="http://bit.ly/metacommunity">
+              <a className="footer-sectiion-icon" href="">
                 <img
                   alt=""
                   src={Discord}
@@ -46,7 +46,7 @@ function Footer () {
             </div>
             <Row>
               <p className="footer-sectiion1-text">
-                <span className="footer-sectiion1-span">CATENA</span> is a connection from the past to the present to the future.
+                <span className="footer-sectiion1-span"></span> is a connection from the past to the present to the future.
               </p>
             </Row>
           </section>
@@ -56,7 +56,7 @@ function Footer () {
         <section className="footer-copyright">
           <Row>
             <p className="footer-copyright-text">
-            Copyright 2022 Catena. All Rights Reserved.
+            Copyright 2022 . All Rights Reserved.
             </p>
           </Row>
         </section>
